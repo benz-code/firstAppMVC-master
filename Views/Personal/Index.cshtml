@@ -1,0 +1,9 @@
+<h1>Pagina Personal</h1>
+@model Personal
+
+
+@Html.LabelFor(c=>c.name, "Nombre: ") @Model.name
+@Html.LabelFor(m=>m.lastname, "Apellido: ") @Model.lastname
+@Html.LabelFor(m=>m.age, "Edad: ") @Model.age
+@Html.LabelFor(m=>m.phone, "Telefono: ") @Model.phone
+@Html.LabelFor(m=>m.direccion, "Direccion: ") @Model.direccion
